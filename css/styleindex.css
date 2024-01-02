@@ -1,0 +1,103 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(246, 213, 152);
+    padding: 0 30px;
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px 0;
+}
+.navbar .navbar--item {
+    padding: 8px 15px;
+    color: rgb(255, 166, 0);
+    margin-top: 15px;
+    width: 120px;
+}
+
+.contact {
+    border: none;
+    outline: none;
+    border: 1px solid rgb(121, 121, 224);
+    color: rgb(121, 121, 224);
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: rgb(246, 213, 152);
+    margin-left: 470px;
+}
+.main--block {
+    width: 100%;
+    background-color: orange;
+    height: calc(100vh);
+}
+.img--main-block {
+    padding-top: 50px;
+    width: 95%;
+    margin-left: 40px;
+}
+.img--block {
+    width: 100%;
+    height: calc(100vh - 100px);
+    object-fit: cover;
+}
+.change--status {
+    margin-top: 3px;
+    margin-left: 50px;
+    background-color: #ccc;
+    width: 140px;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+.img--student-infor {
+    width: 100%;
+}
+.row--infor {
+    display: flex;
+    gap: 5px 0;
+    justify-content: space-between;
+}
+.prensent--stauts {
+    display: flex;
+    justify-content: center;
+    gap: 0 100px;
+}
+.submit {
+    margin-top: 10px;
+    color: #fff;
+    background-color: orange;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.student--infor {
+    margin-left: 80px;
+}
+.footer {
+    margin-top: 10px;
+    background-color: orange;
+    height: 300px;
+}
+.block--left {
+    padding: 20px;
+    /* padding-left: 80px; */
+}
+.footer--main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon::before {
+    font-size: 20px;
+}
